@@ -13,9 +13,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import my.cc.todo.AddNewTask;
 import my.cc.todo.MainActivity;
 import my.cc.todo.Model.ToDoModel;
 import my.cc.todo.R;
+import my.cc.todo.Utils.DatabaseHandler;
 
 public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.ViewHolder> {
 
